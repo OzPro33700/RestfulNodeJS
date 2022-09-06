@@ -1,4 +1,10 @@
 // run `node index.js` in the terminal
-const logger = require('./logger');
+const fs = require('events');
 
-logger.log('message');
+// Appel du gestionnaire d’événements
+const EventEmitter = require('events');
+const emitter = new EventEmitter();
+
+emitter.on('messageLogged', function () {});
+
+emitter.emit('messageLogged');
