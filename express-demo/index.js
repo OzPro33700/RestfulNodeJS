@@ -95,7 +95,7 @@ function validateCourse(course) {
     name: Joi.string().min(3).required(),
   };
 
-  return Joi.validate(req.body, schema);
+  return Joi.validate(course, schema);
 }
 
 const port = process.env.PORT || 3000;
