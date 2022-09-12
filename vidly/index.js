@@ -13,7 +13,7 @@ const password = 'rjktr754_t_A€320';
 const cluster = 'cluster0.fcqcydv';
 const dbname = 'myFirstDatabase';
 
-/*mongoose
+mongoose
   .connect(
     'mongodb+srv://Oz33700:rjktr754_t_A€320@cluster0.fcqcydv.mongodb.net/?retryWrites=true&w=majority'
   )
