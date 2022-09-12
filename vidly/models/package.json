@@ -1,0 +1,7 @@
+{
+  "name": "models",
+  "dependencies": {
+    "joi": "^17.6.0",
+    "mongoose": "^6.6.0"
+  }
+}

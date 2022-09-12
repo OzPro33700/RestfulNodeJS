@@ -1,0 +1,8 @@
+{
+  "name": "routes",
+  "dependencies": {
+    "express": "^4.18.1",
+    "fawn": "^2.1.5",
+    "mongoose": "^6.6.0"
+  }
+}

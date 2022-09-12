@@ -1,0 +1,7 @@
+{
+  "name": "vidly",
+  "dependencies": {
+    "express": "^4.18.1",
+    "joi": "^13.1.0"
+  }
+}
