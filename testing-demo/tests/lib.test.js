@@ -1,5 +1,6 @@
-test('Our first test', () => {
-  throw new Error('something failed');
-});
+const lib = require('../lib');
 
-test();
+test('absolute - should return a positive number if input is positive', () => {
+  const result = lib.absolute(1);
+  expect(result).toBe(1);
+});
