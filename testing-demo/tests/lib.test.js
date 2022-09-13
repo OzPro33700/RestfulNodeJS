@@ -23,3 +23,17 @@ describe('greet', () => {
     expect(result).toMatch(/Mosh/);
   });
 });
+
+describe('getCurrencies', () => {
+  it('should return supported currencies', () => {
+    const result = lib.getCurrencies();
+
+    // Proper way
+    expect(result).toContain('USD');
+    expect(result).toContain('AUD');
+    expect(result).toContain('EUR');
+
+    // Other good way (for strict-matching array)
+    expect(result).toEqual(expect.arrayContaining(['EUR', 'USD', 'AUD']));
+  });
+});
