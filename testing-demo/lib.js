@@ -1,5 +1,5 @@
-/*const db = require('./db');
-const mail = require('./mail');*/
+const db = require('./db');
+const mail = require('./mail');
 
 // Testing numbers
 module.exports.absolute = function (number) {

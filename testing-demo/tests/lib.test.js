@@ -1,5 +1,4 @@
-//const lib = require('../lib');
-const lib = require('../exercise1');
+const lib = require('../lib');
 const db = require('../db');
 
 /*describe('absolute', () => {
@@ -150,6 +149,7 @@ describe('testFizzBuzz', () => {
 
 describe('applyDiscount', () => {
   it('should apply 10% discount if customer has more than 10 points', () => {
+    // MOCK (simulating access to database)
     db.getCustomerSync = function (customerId) {
       console.log('Fake reading customer...');
       return { id: customerId, points: 20 };
