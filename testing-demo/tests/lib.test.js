@@ -1,6 +1,11 @@
 const lib = require('../lib');
 
-describe('absolute', () => {
+describe('sample', () => {
+  const result = lib.sample();
+  expect(result).toBe(1);
+});
+
+/*describe('absolute', () => {
   it('should return a positive number if input is positive', () => {
     const result = lib.absolute(1);
     expect(result).toBe(1);
@@ -60,5 +65,10 @@ describe('registerUser', () => {
   it('should return a user object if valid username is passed', () => {
     const result = lib.registerUser('mosh');
     expect(result).toMatchObject({ username: 'mosh' });
+    expect(result.id).toBeGreaterThan(0);
   });
 });
+
+describe('testFizzBuzz', () => {
+  it('should raise an exception for every value whose type is not string', () => {});
+});*/
