@@ -1,11 +1,6 @@
 const lib = require('../lib');
 
-describe('sample', () => {
-  const result = lib.sample();
-  expect(result).toBe(1);
-});
-
-/*describe('absolute', () => {
+describe('absolute', () => {
   it('should return a positive number if input is positive', () => {
     const result = lib.absolute(1);
     expect(result).toBe(1);
@@ -71,4 +66,4 @@ describe('registerUser', () => {
 
 describe('testFizzBuzz', () => {
   it('should raise an exception for every value whose type is not string', () => {});
-});*/
+});
