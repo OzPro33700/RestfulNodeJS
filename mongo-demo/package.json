@@ -1,6 +1,7 @@
 {
   "name": "mongo-demo",
   "dependencies": {
+    "mongodb": "4.9",
     "mongoose": "^5.0.12"
   }
 }
